@@ -2,6 +2,15 @@
 
 * Unreleased
 
+* 2021-03-17
+  Minor fix for antq
+
+  | :name     | :current  | :latest                 |
+  |-----------+-----------+-------------------------|
+  | antq/antq | antq/antq | com.github.liquidz/antq |
+  | antq/antq | 0.12.0    | 0.12.1                  |
+
+
 * 2021-03-16
   Library version updates
 
@@ -32,6 +41,8 @@
 ** Not upgraded
    tools.deps.alpha is not upgraded as the SHA uses the add-libs branch to the add-libs function which hotloads one or more libraries into a running repl.
 
+* 2021-03-09
+  new ~:service/webserver~ zero-config command line HTTP server using the [[https://github.com/kachayev/nasus][nasus project]]
 
 * 2021-02-09
 
